@@ -26,7 +26,6 @@
 
 ```
 MultiModal-Emotion-Recognition/
-
 ├── data/ 
   ├── goemotions_loader.py 
   └── image_dataset.py 
@@ -168,6 +167,7 @@ pydantic
 tensorboard
 torchvision
 ```
+
 
 
 
