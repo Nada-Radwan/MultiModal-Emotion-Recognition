@@ -1,0 +1,9 @@
+venv/
+__pycache__/
+*.pyc
+runs/              (tensorboard logs)
+.ipynb_checkpoints/
+.idea/
+.vscode/
+checkpoints/
+*.pt

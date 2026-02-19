@@ -1,0 +1,10 @@
+import torch
+from models.multimodal_emotion import MultiModalEmotionModel
+from utils.config import Config
+
+model = MultiModalEmotionModel()
+model.load_state_dict(torch.load("checkpoints/best_model.pt"))
+model.to(Config.DEVICE)
+model.eval()
+
+print("Model ready for inference.")
