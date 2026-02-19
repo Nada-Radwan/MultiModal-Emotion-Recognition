@@ -8,11 +8,11 @@
 
 ## ✨ Overview
 
-- 🧠 Fine-tuned BERT for 28 emotion categories  
-- 📝 Multi-label classification with sigmoid activation  
-- ⚡ CPU-friendly inference API with FastAPI  
-- 💻 Clean modular code for training, evaluation, and deployment  
-- 📊 Confidence scores for predicted emotions  
+* 🧠 Fine-tuned BERT for 28 emotion categories  
+* 📝 Multi-label classification with sigmoid activation  
+* ⚡ CPU-friendly inference API with FastAPI  
+* 💻 Clean modular code for training, evaluation, and deployment  
+* 📊 Confidence scores for predicted emotions  
 
 ---
 
@@ -24,7 +24,20 @@
 
 ## 🏗 Project Structure
 
-`MultiModal-Emotion-Recognition/ ├── data/ ├── goemotions_loader.py └── image_dataset.py ├── models/ └── multimodal_emotion.py ├── utils/ ├── config.py └── metrics.py ├── train.py ├── main.py ├── requirements.txt ├── README.md └── .gitignore`
+`MultiModal-Emotion-Recognition/ 
+├── data/ 
+  ├── goemotions_loader.py 
+  └── image_dataset.py 
+├── models/ 
+  └── multimodal_emotion.py 
+├── utils/ 
+  ├── config.py 
+  └── metrics.py 
+├── train.py 
+├── main.py 
+├── requirements.txt 
+├── README.md 
+├── .gitignore`
 
 ---
 
@@ -79,35 +92,35 @@ POST /predict:
 * Dataset: Google GoEmotions (28 emotions)
 
 🛠 Tech Stack
-PyTorch
+* PyTorch
 
-HuggingFace Transformers
+* HuggingFace Transformers
 
-FastAPI
+* FastAPI
 
-Uvicorn
+* Uvicorn
 
-TensorBoard (optional)
+* TensorBoard (optional)
 
 💡 How It Works
-Text input is tokenized using a pretrained BERT tokenizer
+* Text input is tokenized using a pretrained BERT tokenizer
 
-Model outputs logits for each of the 28 emotions
+* Model outputs logits for each of the 28 emotions
 
-Sigmoid converts logits into probabilities
+* Sigmoid converts logits into probabilities
 
-Top-K highest confidence emotions are returned
+* Top-K highest confidence emotions are returned
 
 📌 Future Improvements
-Threshold tuning per emotion
+* Threshold tuning per emotion
 
-Confidence calibration
+* Confidence calibration
 
-Model quantization for faster CPU inference
+* Model quantization for faster CPU inference
 
-Docker deployment
+* Docker deployment
 
-Web UI / HuggingFace Spaces demo
+* Web UI / HuggingFace Spaces demo
 
 📄 License
 MIT License
@@ -152,3 +165,4 @@ pydantic
 tensorboard
 torchvision
 ```
+
