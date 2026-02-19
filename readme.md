@@ -24,7 +24,8 @@
 
 ## 🏗 Project Structure
 
-`MultiModal-Emotion-Recognition/
+```
+MultiModal-Emotion-Recognition/
 
 ├── data/ 
   ├── goemotions_loader.py 
@@ -40,6 +41,7 @@
 ├── README.md 
 ├── .gitignore`
 
+```
 ---
 
 ## 📦 Installation
@@ -166,5 +168,6 @@ pydantic
 tensorboard
 torchvision
 ```
+
 
 
